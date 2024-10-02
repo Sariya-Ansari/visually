@@ -1,0 +1,8 @@
+This folder can contain the csv files which can be used to validate the unit test cases.
+To execute unit test case execute below command from the project root directory
+Currently a sample data.csv is there for quick reference.
+
+> python -m unittest discover -s tests
+
+When you execute the unit test it will create a 'test_outputs' folder in project root.
+Note: This folder or project root folder will contain the snapshot of all the charts generated.
